@@ -11,7 +11,7 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 class StoryGenerator {
-    private val apiKey = "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"
+    private val apiKey = "substitute-with-api-key"
     private val apiUrl = "https://api-inference.huggingface.co/models/google/gemma-7b"
 
     suspend fun generateStory(prompt: String): String {
